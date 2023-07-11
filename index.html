@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GP Checker</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <nav>
+    <p><strong>Grade Point Checker</strong></p>
+  </nav>
+  <br />
+
+  <body>
+    <div class="out">
+      <div class="sec">
+        <h1>
+          <a
+            style="text-decoration: none; color: black"
+            href="www.facebook.com"
+            target="_blank"
+            >How to Use</a
+          >
+        </h1>
+        To checker grade point users should enable to and ensure all brackets
+        are checked. Goodluck!!
+        <br />
+        1. Enter your course information <br />2. Select the grading scale
+        <br />3.Add additional course information (if required) <br />4.
+        Calculate the GPA
+        <br />
+        <br />
+        <strong
+          >Note: After calculating the GPA, highlight table, right click and
+          print</strong
+        >
+        <div>
+          <a href="Contact/Contact.html">
+            <input
+              id="feedback"
+              class="btn btn-danger display-none"
+              value="feedback"
+              type="button"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="wrapper">
+      <div class="form-row">
+        <div class="col">
+          <input
+            id="course-code"
+            class="form-control"
+            type="text"
+            placeholder="Course Code"
+          />
+        </div>
+        <div class="col">
+          <input
+            id="unit-load"
+            class="form-control"
+            type="number"
+            placeholder="Unit Load"
+            min="1"
+            max="15"
+          />
+        </div>
+        <div class="col">
+          <select id="grade" class="form-control">
+            <option value="">Grade</option>
+            <option value="5">A</option>
+            <option value="4">B</option>
+            <option value="3">C</option>
+            <option value="2">D</option>
+            <option value="1">E</option>
+            <option value="0">F</option>
+          </select>
+        </div>
+        <div class="col">
+          <input id="add" class="btn btn-primary" type="button" value="Add" />
+        </div>
+      </div>
+      <table id="table" class="table table-bordered display-none">
+        <thead>
+          <tr>
+            <th>Course Code</th>
+            <th>Unit Load</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+        <tfoot id="tfoot"></tfoot>
+      </table>
+      <br />
+      <div class="row">
+        <div class="col">
+          <input
+            id="calc-gp"
+            class="btn btn-success display-none"
+            type="button"
+            value="Calc GP"
+          />
+        </div>
+        <div class="col">
+          <input
+            id="clear"
+            class="btn btn-warning display-none"
+            type="button"
+            value="Clear"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer>Antidote Digital | &copy; Copyright 2023</footer>
+  </body>
+</html>
