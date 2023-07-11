@@ -80,14 +80,13 @@ nav p {
   /* position: absolute; */
   margin-left: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* float: left; */
+  float: left; 
   list-style: none;
   display: inline;
   line-height: 40px;
   padding: 30px 10px;
   font-size: 30px;
-  display: flex;
-  justify-content: center;
+  margin-left: 220px;
   color: black;
 }
 
